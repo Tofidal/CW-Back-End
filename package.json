@@ -1,0 +1,18 @@
+{
+  "name": "oakdale-express",
+  "version": "1.0.0",
+  "description": "Express API for Oakdale After-School",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "mongodb": "^5.7.0",
+    "cors": "^2.8.5"
+  }
+}
